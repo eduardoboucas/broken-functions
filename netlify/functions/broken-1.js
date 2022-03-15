@@ -1,4 +1,6 @@
-module.exports.handler = async () => {
+module.exports.handler = async (event) => {
+  console.log(event)
+  
   aFunctionThatDoesNotExist()
 
   return {
